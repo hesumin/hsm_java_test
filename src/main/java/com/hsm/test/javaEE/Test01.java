@@ -57,5 +57,6 @@ class Child extends Parent {
 public class Test01 {
     public static void main(String[] args) {
         new Child();
+        System.out.println("test");
     }
 }
