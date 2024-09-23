@@ -85,6 +85,19 @@ class Child extends Parent {
 }
 
 public class Test01 {
+
+    private String str = "hello";
+    private int count = 2;
+
+    public void test01() {
+        System.out.println("test01");
+    }
+
+    public void test02(String str1) {
+        System.out.println(str);
+        System.out.println("test02: " + str1);
+    }
+
     public static void main(String[] args) {
         long startTime = System.nanoTime();
         new Child();
