@@ -87,8 +87,9 @@ class Child extends Parent {
 public class Test01 {
 
     private String str = "hello";
-    private int count = 2;
-
+//    private int count = 2;
+//
+//
     public void test01() {
         System.out.println("test01");
     }
