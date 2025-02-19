@@ -8,5 +8,6 @@ public class TestMain {
         for (MyService service : loader) {
             service.execute();
         }
+        System.out.println("TestMain");
     }
 }
