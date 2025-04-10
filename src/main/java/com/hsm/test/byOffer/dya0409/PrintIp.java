@@ -15,7 +15,7 @@ import java.util.List;
 
 // 析构函数和构造函数
 // 维护令牌桶计数
-public class Count {
+public class PrintIp {
     public static void main(String[] args) {
         String str = "19216211";
         Function(str);
