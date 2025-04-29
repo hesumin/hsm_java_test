@@ -1,10 +1,10 @@
-package com.hsm.test.javaEE.redis;
+package com.hsm.test.ddkk.redis;
 
 import redis.clients.jedis.Jedis;
 
 /**
  * @projectName(项目名称): hsm_java_test
- * @package(包名称): com.hsm.test.javaEE.redis
+ * @package(包名称): com.hsm.test.ddkk.redis
  * @className:(类名称): JavaRedisString
  * @author: Hesumin
  * @createDate: 2025/04/22 11:21
