@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  * @className:(类名称): LockController
  * @author: Hesumin
  * @createDate: 2025/04/29 18:17
- * @description: TODO 一句话描述该类的功能
+ * @description: redisson实现分布式锁
  */
 
 @RestController
