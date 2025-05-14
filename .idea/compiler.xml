@@ -9,5 +9,6 @@
         <module name="hsm_java_test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
