@@ -2,9 +2,54 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="releases" />
+      <option name="name" value="releases" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="tencent-mirror-thirdparty-releases" />
+      <option name="name" value="tencent-mirror-thirdparty-releases" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/thirdparty/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="tencent_public" />
+      <option name="name" value="tencent_public" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/tencent_public/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="fintech-release" />
+      <option name="name" value="fintech-release" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/fintech-release" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven_public" />
+      <option name="name" value="maven_public" />
+      <option name="url" value="https://mirrors.tencent.com/nexus/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="nexus-central-xg" />
+      <option name="name" value="nexus-central-xg" />
+      <option name="url" value="http://maven.nexus.oa.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="tencent-mirror-thirdparty-snapshots" />
+      <option name="name" value="tencent-mirror-thirdparty-snapshots" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/thirdparty-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="hquery" />
+      <option name="name" value="hquery" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/hquery/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="tdw-release-repo" />
+      <option name="name" value="tdw-release-repo" />
+      <option name="url" value="http://maven.data.oa.com/nexus/content/repositories/public" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -12,9 +57,59 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="edu_jungle" />
+      <option name="name" value="edu_jungle" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/edu_jungle/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cf" />
+      <option name="name" value="cf" />
+      <option name="url" value="http://maven.cf.com:8080/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="sonatype" />
+      <option name="name" value="sonatype" />
+      <option name="url" value="https://oss.sonatype.org/content/repositories/releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="tianqiong-releases" />
+      <option name="name" value="tianqiong-releases" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/tianqiong-releases/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="internal-thirdparty" />
+      <option name="name" value="tinternal-thirdparty" />
+      <option name="url" value="http://maven.data.oa.com/nexus/content/repositories/thirdparty/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="tianqiong-snapshots" />
+      <option name="name" value="tianqiong-snapshots" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/tianqiong-snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="tdw-snapshots-repo" />
+      <option name="name" value="tdw mirror snapshots" />
+      <option name="url" value="http://maven.data.oa.com/nexus/content/repositories/snapshots/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="fintech-snapshot" />
+      <option name="name" value="fintech-snapshot" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/fintech-snapshot" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="repo1" />
+      <option name="name" value="maven.org.repo1" />
+      <option name="url" value="https://repo1.maven.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Jungle_Snapshots" />
+      <option name="name" value="Jungle_Snapshots" />
+      <option name="url" value="https://mirrors.tencent.com/repository/maven/Jungle_Snapshots" />
     </remote-repository>
   </component>
 </project>
