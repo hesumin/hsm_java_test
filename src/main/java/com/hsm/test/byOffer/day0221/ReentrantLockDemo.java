@@ -10,12 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * @createDate: 2025/02/21 15:50
  * @description: 重入锁
  */
-/**
- * @author suminhe
- * @date 2025/5/26 19:08
- * @version 1.0
- * @description: todo
- */
+
 public class ReentrantLockDemo {
 
     public static int num;
