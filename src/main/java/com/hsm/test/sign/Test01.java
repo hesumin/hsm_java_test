@@ -23,6 +23,7 @@ public class Test01 {
         // md5(appId + appToken + timestamp + api + jsonStr); jsonStr为参数
         String sign = DigestUtils.md5Hex(url + appId + appToken + timestamp);
         System.out.println("sign=" + sign);
+        System.out.println(System.currentTimeMillis());
     }
 
     public static void main1(String[] args) {
