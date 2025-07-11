@@ -34,6 +34,7 @@ public class Test2 {
         sb.append("url?timestamp=").append(timestamp).append("&nonce=").append(nonce).append("&signature=")
                 .append(signature);
         System.out.println(sb.toString());
+        System.out.println(System.currentTimeMillis());
     }
 
     // 使用SHA256算法计算签名
