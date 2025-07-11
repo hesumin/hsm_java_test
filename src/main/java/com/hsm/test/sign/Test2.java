@@ -31,7 +31,7 @@ public class Test2 {
         System.out.println(signature);
 
         StringBuilder sb = new StringBuilder();
-        sb.append("?timestamp=").append(timestamp).append("&nonce=").append(nonce).append("&signature=")
+        sb.append("url?timestamp=").append(timestamp).append("&nonce=").append(nonce).append("&signature=")
                 .append(signature);
         System.out.println(sb.toString());
     }

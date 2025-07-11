@@ -11,6 +11,21 @@ import org.apache.commons.codec.digest.DigestUtils;
 
 public class Test01 {
     public static void main(String[] args) {
+        String url = "/api/meta/queryTbFdMetaInfo.do";
+
+        long timestamp = System.currentTimeMillis() / 1000;
+        System.out.println("timestamp=" + timestamp);
+
+        String appId = "15";
+        String appToken = "5cd443da1aed45fd8b388ad82b307f1b";
+        appId = "1";
+        appToken = "d13003c1308c4af59bc20e63756e73a2";
+        // md5(appId + appToken + timestamp + api + jsonStr); jsonStr为参数
+        String sign = DigestUtils.md5Hex(url + appId + appToken + timestamp);
+        System.out.println("sign=" + sign);
+    }
+
+    public static void main1(String[] args) {
         String url = "http://fitdev.woa.com/permission";
         String uri = "/sa/api/queryApprovalInfoFromWedata.do";
         StringBuilder sb = new StringBuilder(url + uri);
