@@ -17,6 +17,7 @@ public class Test0416 {
 
         int ret = Function2(prices3);
         System.out.println(ret);
+        System.out.println("--------------");
     }
 
     // 计算股票最大差值
