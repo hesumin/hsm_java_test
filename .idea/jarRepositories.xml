@@ -42,6 +42,11 @@
       <option name="url" value="https://mirrors.tencent.com/repository/maven/thirdparty-snapshots/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/repositories/central/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="hquery" />
       <option name="name" value="hquery" />
       <option name="url" value="https://mirrors.tencent.com/repository/maven/hquery/" />
