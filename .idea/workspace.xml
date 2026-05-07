@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91d764ac-01b5-4ac4-9cb9-d6db5771c72f" name="Changes" comment="11" />
+    <list default="true" id="91d764ac-01b5-4ac4-9cb9-d6db5771c72f" name="Changes" comment="11">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hsm/test/byOffer/day0416/Test0416.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hsm/test/byOffer/day0416/Test0416.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hsm/test/javaEE/Child.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hsm/test/javaEE/Child.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hsm/test/javaEE/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hsm/test/javaEE/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hsm/test/javaEE/Test01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hsm/test/javaEE/Test01.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager">
+  <component name="ChangesViewManager" show_ignored="true">
     <option name="groupingKeys">
       <option value="directory" />
       <option value="module" />
@@ -116,33 +122,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FileStatsCounter.executor": "Debug",
-    "Application.ReentrantLockDemo.executor": "Debug",
-    "Application.Test01.executor": "Debug",
-    "Application.Test0416.executor": "Run",
-    "Application.Test2.executor": "Run",
-    "Application.TestMain.executor": "Debug",
-    "Application.com.hsm.test.sign.Test2.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
-    "last_opened_file_path": "E:/javaProject/hsm_java_test/src/main/java/com/hsm/test/javaTest",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.21311475",
-    "project.structure.side.proportion": "0.2769409",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FileStatsCounter.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReentrantLockDemo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Test01.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Test0416.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.com.hsm.test.sign.Test2.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/javaProject/hsm_java_test/src/main/java/com/hsm/test/javaTest&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.21311475&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2769409&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -219,9 +225,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test0416" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test0416" />
         <item itemvalue="Application.Test01" />
         <item itemvalue="Application.ReentrantLockDemo" />
       </list>
@@ -271,6 +277,7 @@
       <workItem from="1763455406389" duration="2012000" />
       <workItem from="1778116928986" duration="73000" />
       <workItem from="1778117016341" duration="1655000" />
+      <workItem from="1778119006732" duration="419000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <option name="closed" value="true" />
@@ -384,7 +391,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778118949045</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="11">
+      <option name="closed" value="true" />
+      <created>1778119047915</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1778119047915</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
