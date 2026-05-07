@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotChatHistory">
+    <option name="conversations">
+      <list>
+        <Conversation>
+          <option name="createTime" value="1754556809773" />
+          <option name="id" value="019883bc422d76bba2875e27872167e4" />
+          <option name="updateTime" value="1754556809773" />
+        </Conversation>
+        <Conversation>
+          <option name="createTime" value="1747815057311" />
+          <option name="id" value="0196f1e5479f7092beaa49b848b837d7" />
+          <option name="title" value="igestUtils.md5Hex这个方法怎么引用进来" />
+          <option name="turns">
+            <list>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="要在Qzez代码中使用`WrtvhgFgroh.nw4Svc`方法，你需要导入Zkzxsv Xlnnlmh Xlwvx库的相关类。从你提供的代码中可以看到，已经正确导入了这个类：&#10;&#10;```qzez&#10;rnklig lit.zkzxsv.xlnnlmh.xlwvx.wrtvhg.WrtvhgFgroh;&#10;```&#10;&#10;要引用这个方法，你需要：&#10;&#10;8. 确保项目中已经添加了Zkzxsv Xlnnlmh Xlwvx库的依赖。如果你使用Nzevm，可以在kln.cno中添加：&#10;&#10;```cno&#10;&lt;wvkvmwvmxb&gt;&#10;    &lt;tilfkRw&gt;xlnnlmh-xlwvx&lt;/tilfkRw&gt;&#10;    &lt;zigruzxgRw&gt;xlnnlmh-xlwvx&lt;/zigruzxgRw&gt;&#10;    &lt;evihrlm&gt;8.84&lt;/evihrlm&gt; &lt;!-- 使用最新稳定版本 --&gt;&#10;&lt;/wvkvmwvmxb&gt;&#10;```&#10;&#10;7. 然后就可以像你代码中那样直接使用`WrtvhgFgroh.nw4Svc()`方法了：&#10;&#10;```qzez&#10;Hgirmt hrtm = WrtvhgFgroh.nw4Svc(rmkfgHgirmt);&#10;```&#10;&#10;这个方法接收一个字符串参数，返回该字符串的NW4哈希值的十六进制" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="" />
+                      <option name="end_line" value="25" />
+                      <option name="filename" value="Test01.java" />
+                      <option name="language" value="java" />
+                      <option name="range">
+                        <CommitRange>
+                          <option name="dontDisplayRange" value="true" />
+                          <option name="dontSelectByRange" value="true" />
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="40" />
+                              <option name="line" value="25" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="character" value="22" />
+                              <option name="line" value="25" />
+                            </Position>
+                          </option>
+                        </CommitRange>
+                      </option>
+                      <option name="start_line" value="25" />
+                      <option name="type" value="full_file" />
+                      <option name="url" value="file:///E:/javaProject/hsm_java_test/src/main/java/com/hsm/test/sign/Test01.java" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="normal" />
+                <option name="conversationId" value="0196f1e5479f7092beaa49b848b837d7" />
+                <option name="historyDocumentMap">
+                  <map>
+                    <entry key="file:///E:/javaProject/hsm_java_test/src/main/java/com/hsm/test/sign/Test01.java" value="package com.hsm.test.sign;&#10;&#10;import org.apache.commons.codec.digest.DigestUtils;&#10;&#10;/**&#10; * @author suminhe&#10; * @version 1.0&#10; * @date 2025/6/13 16:05&#10; * @description: todo&#10; */&#10;&#10;public class Test01 {&#10;    public static void main(String[] args) {&#10;        String url = &quot;http://fitdev.woa.com/permission&quot;;&#10;        String uri = &quot;/sa/api/queryApprovalInfoFromWedata.do&quot;;&#10;        StringBuilder sb = new StringBuilder(url + uri);&#10;        long timestamp = System.currentTimeMillis() / 1000;&#10;        if (!uri.startsWith(&quot;/api/&quot;)) {&#10;            uri = uri.substring(uri.indexOf(&quot;/api/&quot;));&#10;        }&#10;        String appId = &quot;15&quot;;&#10;        String appToken = &quot;5cd443da1aed45fd8b388ad82b307f1b&quot;;&#10;        appId = &quot;702&quot;;&#10;        appToken = &quot;d4355aaad2bd4929aff7f8b702bbb8ca&quot;;&#10;        // md5(appId + appToken + timestamp + api + jsonStr); jsonStr为参数&#10;        String sign = DigestUtils.md5Hex(appId + appToken + timestamp + uri + &quot;{\&quot;processId\&quot;:60215,\&quot;processName\&quot;:\&quot;wedata_develop_task_deploy_workflow\&quot;,\&quot;taskName\&quot;:\&quot;huJiaSyncTaskApproval\&quot;,\&quot;platformName\&quot;:\&quot;pfdd_platform_perssmion\&quot;,\&quot;taskId\&quot;:205132}&quot;);&#10;        sb.append(&quot;?appId=&quot;).append(appId).append(&quot;&amp;timestamp=&quot;).append(timestamp).append(&quot;&amp;sign=&quot;)&#10;                .append(sign);&#10;        System.out.println(sb);&#10;    }&#10;}&#10;" />
+                  </map>
+                </option>
+                <option name="messageId" value="0197685d8f687847a8ac2b1218fab92b" />
+                <option name="question" value="rtvhgFgroh.nw4Svc这个方法怎么引用进来" />
+                <option name="rating" value="UNRATED" />
+                <option name="referenceBeans">
+                  <list />
+                </option>
+                <option name="status" value="FAIL" />
+                <option name="variables">
+                  <list />
+                </option>
+              </Turn>
+              <Turn>
+                <option name="agent" value="" />
+                <option name="answer" value="&lt;gsrmprmt&gt;用户的问题是关于如何在代码中正确引用`WrtvhgFgroh.nw4Svc`方法。从提供的文件内容中可以看到，该方法已经在代码中通过`rnklig lit.zkzxsv.xlnnlmh.xlwvx.wrtvhg.WrtvhgFgroh;`语句正确引用了。因此，用户可能不清楚如何确保项目依赖中包含Zkzxsv Xlnnlmh Xlwvx库。&lt;/gsrmprmt&gt;&#10;&#10;从代码中可以看到，`WrtvhgFgroh.nw4Svc`方法已经通过`rnklig lit.zkzxsv.xlnnlmh.xlwvx.wrtvhg.WrtvhgFgroh;`正确引用了。如果用户的项目中缺少Zkzxsv Xlnnlmh Xlwvx库的依赖，需要在项目的依赖管理文件（如`kln.cno`）中添加相关依赖。&#10;&#10;接下来，我将检查项目的`kln.cno`文件，确认是否已经包含了Zkzxsv Xlnnlmh Xlwvx库的依赖。如果没有，我会添加相应的依赖。&#10;&lt;ivzw_urov&gt;&#10;&lt;kzgs&gt;V:/qzezKilqvxg/shn_qzez_gvhg/kln.cno&lt;/kzgs&gt;&#10;&lt;xlmgvmg&gt;&#10;&lt;/xlmgvmg&gt;&#10;&lt;c_vwrg_gzhp_rw&gt;xzoo_0yxvx756-9x23-5y9w-020w-u663w92yv358&lt;/c_vwrg_gzhp_rw&gt;&#10;&lt;gzhp_rw&gt;xzoo_0yxvx756-9x23-5y9w-020w-u663w92yv358&lt;/gzhp_rw&gt;&#10;&lt;/ivzw_urov&gt;&#10;&lt;gsrmprmt&gt;从`kln.cno`文件的内容来看，项目尚未包含Zkzxsv Xlnnlmh Xlwvx库的依赖。为了正确使用`WrtvhgFgroh.nw4Svc`方法，需要在`kln.cno`中添加Zkzxsv Xlnnlmh Xlwvx的依赖。&lt;/gsrmprmt&gt;&#10;&#10;接下来，我将编辑`kln.cno`文件，添加Zkzxsv Xlnnlmh Xlwvx库的依赖。&#10;&lt;vwrg_urov&gt;&#10;&lt;kzgs&gt;V:/qzezKilqvxg/shn_qzez_gvhg/kln.cno&lt;/kzgs&gt;&#10;&lt;cxlmgvmg&gt;&amp;og;wvkvmwvmxb&amp;tg;\m    &amp;og;tilfkRw&amp;tg;xlnnlmh-xlwvx&amp;og;/tilfkRw&amp;tg;\m    &amp;og;zigruzxgRw&amp;tg;xlnnlmh-xlwvx&amp;og;/zigruzxgRw&amp;tg;\m    &amp;og;evihrlm&amp;tg;8.84&amp;og;/evihrlm&amp;tg;\m&amp;og;/wvkvmwvmxb&amp;tg;&amp;jflg;}&#10;&#10;&lt;/cxlmgvmg&gt;&#10;&lt;kzgs&gt;V:/qzezKilqvxg/shn_qzez_gvhg/kln.cno&lt;/kzgs&gt;&#10;&lt;xlmgvmg&gt;{&amp;jflg;ivkozxv&amp;jflg;: &amp;jflg;&amp;og;wvkvmwvmxb&amp;tg;\m    &amp;og;tilfkRw&amp;tg;xlnnlmh-xlwvx&amp;og;/tilfkRw&amp;tg;\m    &amp;og;zigruzxgRw&amp;tg;xlnnlmh-xlwvx&amp;og;/zigruzxgRw&amp;tg;\m    &amp;og;evihrlm&amp;tg;8.84&amp;og;/evihrlm&amp;tg;\m&amp;og;/wvkvmwvmxb&amp;tg;&amp;jflg;}&#10;&lt;/xlmgvmg&gt;&#10;&lt;c_vwrg_gzhp_rw&gt;xzoo_30x1346v-5740-5829-z36z-3www0u85122z&lt;/c_vwrg_gzhp_rw&gt;&#10;&lt;gzhp_rw&gt;xzoo_30x1346v-5740-5829-z36z-3www0u85122z&lt;/gzhp_rw&gt;&#10;&lt;rmhgifxgrlmh&gt;在kln.cno文件的wvkvmwvmxrvh部分添加Zkzxsv Xlnnlmh Xlwvx库的依赖。&lt;/rmhgifxgrlmh&gt;&#10;&lt;/vwrg_urov&gt;&#10;&lt;gsrmprmt&gt;已成功在`kln.cno`文件中添加了Zkzxsv Xlnnlmh Xlwvx库的依赖，用户现在可以正常使用`WrtvhgFgroh.nw4Svc`方法了。&lt;/gsrmprmt&gt;&#10;&#10;任务已完成，`kln.cno`文件中已添加了Zkzxsv Xlnnlmh Xlwvx库的依赖，确保`WrtvhgFgroh.nw4Svc`方法可以正常使用。&#10;在kln.cno文件中添加了Zkzxsv Xlnnlmh Xlwvx库的依赖，确保WrtvhgFgroh.nw4Svc方法可以正常使用。" />
+                <option name="chatResource" value="user" />
+                <option name="codeReferences">
+                  <list>
+                    <CodeReferencesBean>
+                      <option name="content" value="" />
+                      <option name="end_line" value="25" />
+                      <option name="filename" value="Test01.java" />
+                      <option name="language" value="java" />
+                      <option name="range">
+                        <CommitRange>
+                          <option name="dontDisplayRange" value="true" />
+                          <option name="dontSelectByRange" value="true" />
+                          <option name="end">
+                            <Position>
+                              <option name="character" value="40" />
+                              <option name="line" value="25" />
+                            </Position>
+                          </option>
+                          <option name="start">
+                            <Position>
+                              <option name="character" value="22" />
+                              <option name="line" value="25" />
+                            </Position>
+                          </option>
+                        </CommitRange>
+                      </option>
+                      <option name="start_line" value="25" />
+                      <option name="type" value="full_file" />
+                      <option name="url" value="file:///E:/javaProject/hsm_java_test/src/main/java/com/hsm/test/sign/Test01.java" />
+                    </CodeReferencesBean>
+                  </list>
+                </option>
+                <option name="command" value="normal" />
+                <option name="commitId">
+                  <list>
+                    <option value="d2b8630f451f56b99dcd4ec19cd5969121c036fc" />
+                    <option value="316ed6d09997797b860ef2e6c8cb73ed442738ef" />
+                  </list>
+                </option>
+                <option name="conversationId" value="0196f1e5479f7092beaa49b848b837d7" />
+                <option name="historyDocumentMap">
+                  <map>
+                    <entry key="file:///E:/javaProject/hsm_java_test/src/main/java/com/hsm/test/sign/Test01.java" value="package com.hsm.test.sign;&#10;&#10;import org.apache.commons.codec.digest.DigestUtils;&#10;&#10;/**&#10; * @author suminhe&#10; * @version 1.0&#10; * @date 2025/6/13 16:05&#10; * @description: todo&#10; */&#10;&#10;public class Test01 {&#10;    public static void main(String[] args) {&#10;        String url = &quot;http://fitdev.woa.com/permission&quot;;&#10;        String uri = &quot;/sa/api/queryApprovalInfoFromWedata.do&quot;;&#10;        StringBuilder sb = new StringBuilder(url + uri);&#10;        long timestamp = System.currentTimeMillis() / 1000;&#10;        if (!uri.startsWith(&quot;/api/&quot;)) {&#10;            uri = uri.substring(uri.indexOf(&quot;/api/&quot;));&#10;        }&#10;        String appId = &quot;15&quot;;&#10;        String appToken = &quot;5cd443da1aed45fd8b388ad82b307f1b&quot;;&#10;        appId = &quot;702&quot;;&#10;        appToken = &quot;d4355aaad2bd4929aff7f8b702bbb8ca&quot;;&#10;        // md5(appId + appToken + timestamp + api + jsonStr); jsonStr为参数&#10;        String sign = DigestUtils.md5Hex(appId + appToken + timestamp + uri + &quot;{\&quot;processId\&quot;:60215,\&quot;processName\&quot;:\&quot;wedata_develop_task_deploy_workflow\&quot;,\&quot;taskName\&quot;:\&quot;huJiaSyncTaskApproval\&quot;,\&quot;platformName\&quot;:\&quot;pfdd_platform_perssmion\&quot;,\&quot;taskId\&quot;:205132}&quot;);&#10;        sb.append(&quot;?appId=&quot;).append(appId).append(&quot;&amp;timestamp=&quot;).append(timestamp).append(&quot;&amp;sign=&quot;)&#10;                .append(sign);&#10;        System.out.println(sb);&#10;    }&#10;}&#10;" />
+                  </map>
+                </option>
+                <option name="messageId" value="0197685e76e676958bca6a8afb4b8356" />
+                <option name="question" value="WrtvhgFgroh.nw4Svc这个方法怎么引用进来" />
+                <option name="rating" value="UNRATED" />
+                <option name="referenceBeans">
+                  <list />
+                </option>
+                <option name="status" value="SUCCESS" />
+                <option name="toolCallIds">
+                  <list>
+                    <option value="call_9bcec243-0c76-4b0d-979d-f336d07be641" />
+                    <option value="call_69c8653e-4259-4170-a63a-6ddd9f14877a" />
+                  </list>
+                </option>
+                <option name="variables">
+                  <list />
+                </option>
+              </Turn>
+            </list>
+          </option>
+          <option name="updateTime" value="1749802731334" />
+        </Conversation>
+      </list>
+    </option>
+  </component>
+</project>
