@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="91d764ac-01b5-4ac4-9cb9-d6db5771c72f" name="Changes" comment="11" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <branch-grouping />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hesumin&quot;
+  }
+}</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="dev" />
+                    <option name="lastUsedInstant" value="1752224961" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1752224819" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hesumin/hsm_java_test.git&quot;,
+    &quot;accountId&quot;: &quot;75a6d6cf-9fbf-48c7-b82b-e1357a022fcb&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\environment\apache-maven-3.6.3" />
+        <option name="localRepository" value="D:\environment\maven-repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\environment\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="kona-1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="kona-1.8" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2x4FTZ5kmvApvxD0fVH0OB078fu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FileStatsCounter.executor": "Debug",
+    "Application.ReentrantLockDemo.executor": "Debug",
+    "Application.Test01.executor": "Debug",
+    "Application.Test0416.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.TestMain.executor": "Debug",
+    "Application.com.hsm.test.sign.Test2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "dev",
+    "last_opened_file_path": "E:/javaProject/hsm_java_test/src/main/java/com/hsm/test/javaTest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.21311475",
+    "project.structure.side.proportion": "0.2769409",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javaProject\hsm_java_test\src\main\java\com\hsm\test\javaTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test0416">
+    <configuration name="ReentrantLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hsm.test.byOffer.day0221.ReentrantLockDemo" />
+      <module name="hsm_java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsm.test.byOffer.day0221.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hsm.test.sign.Test01" />
+      <module name="hsm_java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsm.test.sign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test0416" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hsm.test.byOffer.day0416.Test0416" />
+      <module name="hsm_java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsm.test.byOffer.day0416.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hsm.test.ddkk.redis.Test2" />
+      <module name="hsm_java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsm.test.ddkk.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hsm.test.spi.TestMain" />
+      <module name="hsm_java_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsm.test.spi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.Test0416" />
+        <item itemvalue="Application.Test01" />
+        <item itemvalue="Application.ReentrantLockDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="91d764ac-01b5-4ac4-9cb9-d6db5771c72f" name="Changes" comment="" />
+      <created>1747189446862</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747189446862</updated>
+      <workItem from="1747189447962" duration="41000" />
+      <workItem from="1747189525700" duration="3247000" />
+      <workItem from="1747193298248" duration="761000" />
+      <workItem from="1747202942857" duration="33000" />
+      <workItem from="1747203001038" duration="122000" />
+      <workItem from="1747203137703" duration="1614000" />
+      <workItem from="1747209213913" duration="63000" />
+      <workItem from="1747209381028" duration="325000" />
+      <workItem from="1747815039973" duration="48000" />
+      <workItem from="1747815090978" duration="326000" />
+      <workItem from="1748257675162" duration="1275000" />
+      <workItem from="1749801874140" duration="15567000" />
+      <workItem from="1750912247749" duration="563000" />
+      <workItem from="1750912971935" duration="2461000" />
+      <workItem from="1752223142722" duration="3752000" />
+      <workItem from="1753427305403" duration="245000" />
+      <workItem from="1754038281166" duration="1632000" />
+      <workItem from="1754050888610" duration="497000" />
+      <workItem from="1754278195314" duration="2985000" />
+      <workItem from="1754556811469" duration="251000" />
+      <workItem from="1755053638170" duration="139000" />
+      <workItem from="1757642810612" duration="1657000" />
+      <workItem from="1757650151626" duration="2438000" />
+      <workItem from="1758181195830" duration="596000" />
+      <workItem from="1760345276012" duration="596000" />
+      <workItem from="1763014103424" duration="642000" />
+      <workItem from="1763455406389" duration="2012000" />
+      <workItem from="1778116928986" duration="73000" />
+      <workItem from="1778117016341" duration="1655000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <option name="closed" value="true" />
+      <created>1747189897632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747189897632</updated>
+    </task>
+    <task id="LOCAL-00002" summary="给idea添加类注释模版">
+      <option name="closed" value="true" />
+      <created>1747190804172</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747190804172</updated>
+    </task>
+    <task id="LOCAL-00003" summary="给idea添加类注释模版">
+      <option name="closed" value="true" />
+      <created>1747190981642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747190981642</updated>
+    </task>
+    <task id="LOCAL-00004" summary="给idea添加类注释模版">
+      <option name="closed" value="true" />
+      <created>1748257811437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748257811437</updated>
+    </task>
+    <task id="LOCAL-00005" summary="给idea添加类注释模版">
+      <option name="closed" value="true" />
+      <created>1748259078541</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1748259078541</updated>
+    </task>
+    <task id="LOCAL-00006" summary="通过md5生成的sign签名方式">
+      <option name="closed" value="true" />
+      <created>1750158824905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750158824905</updated>
+    </task>
+    <task id="LOCAL-00007" summary="通过sha256生成的sign签名方式">
+      <option name="closed" value="true" />
+      <created>1750158856674</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750158856674</updated>
+    </task>
+    <task id="LOCAL-00008" summary="git test">
+      <option name="closed" value="true" />
+      <created>1752224084041</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752224084041</updated>
+    </task>
+    <task id="LOCAL-00009" summary="master_test">
+      <option name="closed" value="true" />
+      <created>1752224262174</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1752224262174</updated>
+    </task>
+    <task id="LOCAL-00010" summary="master_test">
+      <option name="closed" value="true" />
+      <created>1752224402568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1752224402568</updated>
+    </task>
+    <task id="LOCAL-00011" summary="文件文本统计demo">
+      <option name="closed" value="true" />
+      <created>1754383372454</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754383372454</updated>
+    </task>
+    <task id="LOCAL-00012" summary="文件文本统计demo">
+      <option name="closed" value="true" />
+      <created>1763974882194</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1763974882194</updated>
+    </task>
+    <task id="LOCAL-00013" summary="11">
+      <option name="closed" value="true" />
+      <created>1778118880205</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1778118880205</updated>
+    </task>
+    <task id="LOCAL-00014" summary="11">
+      <option name="closed" value="true" />
+      <created>1778118949045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1778118949045</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化" />
+    <MESSAGE value="给idea添加类注释模版" />
+    <MESSAGE value="通过md5生成的sign签名方式" />
+    <MESSAGE value="通过sha256生成的sign签名方式" />
+    <MESSAGE value="change" />
+    <MESSAGE value="123" />
+    <MESSAGE value="111" />
+    <MESSAGE value="git test" />
+    <MESSAGE value="master_test" />
+    <MESSAGE value="文件文本统计demo" />
+    <MESSAGE value="11" />
+    <option name="LAST_COMMIT_MESSAGE" value="11" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
